@@ -279,6 +279,9 @@
     position: relative;
     padding-left: 33px;
     color: #1e1e1e;
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out,-webkit-transform .2s ease-in-out;
   }
   #freshteam-widget.sl-jobs .job-details .link-back::before {
       content: "";
