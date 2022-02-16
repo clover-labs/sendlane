@@ -290,6 +290,11 @@
   }
   #freshteam-widget.sl-jobs .job-details .link-back:hover {
     text-decoration: underline;
+    color: #ff3c78;
+  }
+  #freshteam-widget.sl-jobs .job-details .link-back:hover::before {
+    color: #ff3c78;
+    transform: translateX(-5px);
   }
   #freshteam-widget.sl-jobs .job-details .link-back .icon-arrow-left {
     display: none;
