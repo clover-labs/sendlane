@@ -90,16 +90,12 @@
     text-align: center;
     cursor: pointer;
   }
-  #freshteam-widget.sl-jobs .btn-primary {
-    height: 60px !important;
-    padding: 18px 25px !important;
-  }
   #freshteam-widget.sl-jobs .job-details-header .btn-primary {
     font-size: 20px;
-    line-height: ;
-    padding: 18px 25px;
-    position: relative !important;
-    text-align: center !important;
+    line-height: 1.3;
+    padding: 15px 20px 25px;
+    padding-right: 48.016px;
+    text-align: center;
     padding-left: 30px !important;
     padding-right: 30px !important;
     margin-top: 20px !important;
@@ -278,7 +274,6 @@
   }
   #freshteam-widget.sl-jobs .job-details-header .content .row {
     flex-direction: column;
-    align-items: center;
   }
   #freshteam-widget.sl-jobs .btn-primary {
     height: 50px;
@@ -297,12 +292,6 @@
   }
   #freshteam-widget.sl-jobs .btn-primary:hover, #freshteam-widget.sl-jobs .btn-primary:active {
     background-color: #db3266;
-  }
-  #freshteam-widget.sl-jobs .job-details-header .btn-primary {
-    font-size: 20px;
-    padding: 15px 20px 25px;
-    padding-right: 48.016px;
-    position: relative;
   }
   #freshteam-widget.sl-jobs .job-details-header .btn-primary::after {
     position: absolute;
@@ -356,7 +345,7 @@
   #freshteam-widget.sl-jobs .application-btn {
       text-align: center;
   }
-  #freshteam-widget.sl-jobs #application-form form p {
+  #freshteam-widget.sl-jobs .job-details-content #application-form form p {
       font-size: 16px;
   }
   #freshteam-widget.sl-jobs .job-details-content #job-applicant-form-header img {
