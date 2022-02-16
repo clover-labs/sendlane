@@ -59,6 +59,10 @@
     -webkit-transition: border .2s ease-in-out;
     transition: border .2s ease-in-out;
     font-size: 20px;
+    margin-top: 0;
+  }
+  #freshteam-widget.sl-jobs .form-control:focus {
+      border-color: #ff3c78;
   }
   #freshteam-widget.sl-jobs .advanced-search, #freshteam-widget.sl-jobs .job-list .job-desc, #freshteam-widget.sl-jobs .job-list .job-location .location-icon .icon-arrow-right, #freshteam-widget.sl-jobs .job-list > li .row:before, #freshteam-widget.sl-jobs .job-list > li .row:after {
     display: none;
@@ -349,6 +353,9 @@
   }
   #freshteam-widget.sl-jobs .application-btn {
       text-align: center;
+  }
+  .close-application-form {
+
   }
   @media (max-width: 720px) {
     #freshteam-widget.sl-jobs .job-list > li {
