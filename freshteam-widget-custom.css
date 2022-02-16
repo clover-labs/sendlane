@@ -230,6 +230,10 @@
   #freshteam-widget.sl-jobs .job-role-list>ul>li {
     margin-bottom: 30px;
   }
+  #freshteam-widget.sl-jobs .job-details-content > div > div:first-child {
+    max-width: 800px;
+    margin: 0 auto;
+  }
   #freshteam-widget.sl-jobs .job-details-content > div > div:first-child > * {
     font-family: 'Gt walsheim', sans-serif !important;
     color: #1e1e1e;
@@ -260,6 +264,8 @@
     background-color: transparent;
     padding: 0;
     color: #1e1e1e;
+    max-width: 800px;
+    margin: 0 auto;
   }
   #freshteam-widget.sl-jobs .job-details .link-back {
     display: inline-block;
@@ -305,6 +311,9 @@
   #freshteam-widget.sl-jobs .job-details-header .content .row {
     flex-direction: column;
   }
+  #freshteam-widget.sl-jobs .job-details-header .content .row > div {
+      width: 100% !important;
+  }
   #freshteam-widget.sl-jobs .container-fluid {
       padding: 0;
   }
@@ -334,15 +343,12 @@
     position: absolute;
     background-image: url("https://uploads-ssl.webflow.com/5fcfd42a1d06cd880266a30a/5fcfd42a1d06cd6cca66a5f0_arrow-right-white.svg");
     background-repeat: no-repeat;
-    background-size: 18-;
-  }
-  #freshteam-widget.sl-jobs .job-details-header .text-color {
-    color: #1e1e1e;
   }
   #freshteam-widget.sl-jobs .job-details-header .text-color {
     font-family: 'Gt walsheim', sans-serif;
     font-size: 22px;
     line-height: 1.3;
+    color: #1e1e1e;
   }
   #freshteam-widget.sl-jobs .job-role-list .mobile-role-count {
     display: none;
