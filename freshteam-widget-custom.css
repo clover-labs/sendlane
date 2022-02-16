@@ -277,7 +277,7 @@
   #freshteam-widget.sl-jobs .job-details .link-back::before {
       content: "";
       position: absolute;
-      top: 0;
+      top: 8px;
       left: 0;
       display: inline-block;
     margin-right: 15px;
@@ -289,7 +289,6 @@
     color: #1e1e1e;
   }
   #freshteam-widget.sl-jobs .job-details .link-back:hover {
-    color: #1e1e1e;
     text-decoration: underline;
   }
   #freshteam-widget.sl-jobs .job-details .link-back .icon-arrow-left {
