@@ -351,6 +351,7 @@
     left: 0;
     width: 100%;
     height: auto;
+    padding: 0 15px;
   }
   #freshteam-widget.sl-jobs .application-btn {
       text-align: center;
@@ -358,10 +359,7 @@
   #freshteam-widget.sl-jobs #application-form form p {
       font-size: 16px;
   }
-  #job-applicant-form-header {
-    padding: 0 15px;
-  }
-  #job-applicant-form-header img {
+  #freshteam-widget.sl-jobs .job-details-content #job-applicant-form-header img {
     margin: initial;
   }
   #freshteam-widget.sl-jobs #applicant_submit {
