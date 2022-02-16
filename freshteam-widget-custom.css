@@ -348,9 +348,10 @@
   #job-applicant-form-header {
     position: absolute;
     top: 0;
-    left: 0;
+    left: calc((100% - 1200px) / 2);
     width: 100%;
     height: auto;
+    max-width: 1200px;
     padding: 0 15px;
   }
   #freshteam-widget.sl-jobs .application-btn {
