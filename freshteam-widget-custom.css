@@ -331,10 +331,13 @@
     padding: 20px 20px 40px;
   }
   #freshteam-widget.sl-jobs #applicant-form > h3 {
-    font-size: 42px !important;
-    margin: 20px 0 40px;
+    font-family: 'Gt walsheim',sans-serif;
+    font-size: 36px;
+    line-height: 1.22;
     font-weight: 700;
     letter-spacing: -1.5px;
+    margin: 30px 0 40px;
+    color: #1e1e1e;
     text-align: center;
   }
   #job-applicant-form-header {
@@ -343,6 +346,9 @@
     left: 0;
     width: 100%;
     height: auto;
+  }
+  #freshteam-widget.sl-jobs .application-btn {
+      text-align: center;
   }
   @media (max-width: 720px) {
     #freshteam-widget.sl-jobs .job-list > li {
