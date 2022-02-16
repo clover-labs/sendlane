@@ -281,6 +281,9 @@
   #freshteam-widget.sl-jobs .job-details-header .content .row {
     flex-direction: column;
   }
+  #freshteam-widget.sl-jobs .container-fluid {
+      padding: 0;
+  }
   #freshteam-widget.sl-jobs .btn-primary {
     height: 50px;
     min-width: 137px;
