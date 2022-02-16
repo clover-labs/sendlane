@@ -181,6 +181,7 @@
     flex-direction: column;
     align-items: stretch;
     cursor: auto;
+    max-width: 415px;
   }
   #freshteam-widget.sl-jobs .job-list > li .row {
     padding: 30px;
