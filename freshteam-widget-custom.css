@@ -368,6 +368,12 @@
       margin-left: auto;
       margin-right: auto;
   }
+  @media (max-width: 1199.98px) {
+    #job-applicant-form-header {
+        left: 0;
+        max-width: none;
+      }
+  }
   @media (max-width: 720px) {
     #freshteam-widget.sl-jobs .job-list > li {
       width: 50%;
