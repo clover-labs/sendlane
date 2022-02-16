@@ -270,10 +270,8 @@
     fill: #1e1e1e;
   }
   #freshteam-widget.sl-jobs .job-details .link-back:hover {
-    color: #ff3c78;
-  }
-  #freshteam-widget.sl-jobs .job-details .link-back:hover .icon-arrow-left {
-    fill: #ff3c78;
+    color: #1e1e1e;
+    text-decoration: underline;
   }
   #freshteam-widget.sl-jobs .job-details-header .content {
       text-align: left;
