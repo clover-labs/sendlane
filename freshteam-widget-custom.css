@@ -6,9 +6,11 @@
     background-color: transparent;
   }
   #freshteam-widget.sl-jobs .form-group label {
+    font-family: 'Gt walsheim', sans-serif;
+    font-size: 16px;
     font-weight: normal;
     line-height: 1em;
-    background-color: none;
+    background-color: transparent;
     position: relative;
     z-index: 10;
     background: none;
