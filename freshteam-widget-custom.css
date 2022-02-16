@@ -8,14 +8,12 @@
   #freshteam-widget.sl-jobs .form-group label {
     font-family: 'Gt walsheim', sans-serif;
     font-size: 16px;
-    font-weight: normal;
-    line-height: 1em;
+    font-weight: 400;
+    line-height: 1.3;
     background-color: transparent;
-    position: relative;
-    z-index: 10;
     background: none;
     padding: 0;
-    margin: 0 0 5px 0;
+    margin: 0 0 10px 0;
   }
   #freshteam-widget.sl-jobs .form-group .checkbox, #freshteam-widget .form-group .radio {
     width: 100%;
