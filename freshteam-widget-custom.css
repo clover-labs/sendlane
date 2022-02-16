@@ -357,8 +357,8 @@
   #freshteam-widget.sl-jobs .application-btn {
       text-align: center;
   }
-  #freshteam-widget.sl-jobs .job-details-content #application-form form p {
-      font-size: 16px;
+  #freshteam-widget.sl-jobs #job-applicant-form form p {
+      font-size: 16px !important;
   }
   #freshteam-widget.sl-jobs .job-details-content #job-applicant-form-header img {
     margin: initial;
