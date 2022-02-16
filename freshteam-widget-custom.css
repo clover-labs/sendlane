@@ -275,6 +275,9 @@
   #freshteam-widget.sl-jobs .job-details .link-back:hover .icon-arrow-left {
     fill: #ff3c78;
   }
+  #freshteam-widget.sl-jobs .job-details-header .content {
+      text-align: left;
+  }
   #freshteam-widget.sl-jobs .job-details-header .content .row {
     flex-direction: column;
   }
