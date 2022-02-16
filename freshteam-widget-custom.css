@@ -13,7 +13,10 @@
     background-color: transparent;
     background: none;
     padding: 0;
-    margin: 0 0 10px 0;
+    margin: 0 0 5px 0;
+  }
+  #freshteam-widget.sl-jobs .required {
+    color: #ff3c78;
   }
   #freshteam-widget.sl-jobs .form-group .checkbox, #freshteam-widget .form-group .radio {
     width: 100%;
@@ -352,8 +355,19 @@
   #freshteam-widget.sl-jobs .application-btn {
       text-align: center;
   }
-  .close-application-form {
-
+  #freshteam-widget.sl-jobs #application-form form p {
+      font-size: 16px;
+  }
+  #job-applicant-form-header {
+    padding: 0 15px;
+  }
+  #job-applicant-form-header img {
+    margin: initial;
+  }
+  #freshteam-widget.sl-jobs #applicant_submit {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
   }
   @media (max-width: 720px) {
     #freshteam-widget.sl-jobs .job-list > li {
