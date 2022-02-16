@@ -314,6 +314,7 @@
   }
   #freshteam-widget.sl-jobs .job-details-header .content .row {
     flex-direction: column;
+    text-align: center;
   }
   #freshteam-widget.sl-jobs .job-details-header .content .row > div {
       width: 100% !important;
