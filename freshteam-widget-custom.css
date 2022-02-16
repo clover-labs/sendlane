@@ -282,7 +282,7 @@
     text-align: center;
     background-color: #ff3c78;
     transition: .2s;
-    color: #fff;
+    color: #fff !important;
     font-size: 20px;
     line-height: 1;
     display: inline-block;
