@@ -130,6 +130,9 @@
     color: #1e1e1e;
     margin-bottom: 40px;
   }
+  #freshteam-widget.sl-jobs .job-details-header h1 {
+    margin-bottom: 20px;
+  }
   #freshteam-widget.sl-jobs .job-details .link-back .icon-arrow-left {
     fill: #1e1e1e !important;
     margin-bottom: -2px !important;
