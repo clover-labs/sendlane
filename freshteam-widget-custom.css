@@ -374,6 +374,11 @@
         max-width: none;
       }
   }
+  @media screen and (max-width: 991px) {
+    #freshteam-widget.sl-jobs #applicant-form > h3 {
+        font-size: 30px;
+      }
+  }
   @media (max-width: 720px) {
     #freshteam-widget.sl-jobs .job-list > li {
       width: 50%;
