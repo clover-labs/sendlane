@@ -41,6 +41,10 @@
     text-align: center;
     border: 0;
   }
+  #freshteam-widget.sl-jobs .resume-upload {
+      max-width: none;
+      text-align: center;
+  }
   #freshteam-widget.sl-jobs .resume-upload .btn-success:hover, #freshteam-widget.sl-jobs .resume-upload .btn-success:active, #freshteam-widget.sl-jobs .resume-upload:hover .btn-success {
     background-color: #294cdb;
   }
@@ -96,7 +100,7 @@
     padding-right: 30px !important;
     margin-top: 20px !important;
   }
-  #freshteam-widget.sl-jobs .job-list .job-location .location-icon:hover::before {
+  #freshteam-widget.sl-jobs .job-list .job-location .location-icon:hover::before, #freshteam-widget.sl-jobs .btn-primary:active:hover, #freshteam-widget.sl-jobs .btn-primary:active:focus, #freshteam-widget.sl-jobs .btn-primary:active.focus, #freshteam-widget.sl-jobs .btn-primary.active:hover, #freshteam-widget.sl-jobs .btn-primary.active:focus, #freshteam-widget.sl-jobs .btn-primary.active.focus {
     background-color: #db3266;
   }
   #freshteam-widget.sl-jobs .job-list .job-location .location-info {
