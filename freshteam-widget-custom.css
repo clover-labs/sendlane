@@ -299,6 +299,10 @@
     display: inline-block;
     border: 0;
   }
+  #freshteam-widget.sl-jobs #apply-job-button-wrapper {
+      width: 100%;
+      text-align: center;
+  }
   #freshteam-widget.sl-jobs .btn-primary:hover, #freshteam-widget.sl-jobs .btn-primary:active {
     background-color: #db3266;
   }
