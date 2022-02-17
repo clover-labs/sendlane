@@ -445,6 +445,6 @@
   }
   @media screen and (max-width: 479px) {
     #freshteam-widget.sl-jobs .job-role-list .role-title h5, #freshteam-widget.sl-jobs .job-details-header h1 {
-        font-size: 36px;
+        font-size: 32px;
     }
   }
