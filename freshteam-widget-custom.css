@@ -405,6 +405,9 @@
       margin-left: auto;
       margin-right: auto;
   }
+  #freshteam-widget.sl-jobs .container-fluid {
+    text-align: left;
+  }
   @media (max-width: 1199.98px) {
     #job-applicant-form-header {
         left: 0;
@@ -415,6 +418,11 @@
     #freshteam-widget.sl-jobs #applicant-form > h3 {
         font-size: 30px;
       }
+  }
+  @media screen and (max-width: 767px) {
+    #freshteam-widget.sl-jobs .job-role-list .role-title h5, #freshteam-widget.sl-jobs .job-details-header h1 {
+        font-size: 36px;
+    }
   }
   @media (max-width: 720px) {
     #freshteam-widget.sl-jobs .job-list > li {
@@ -435,6 +443,8 @@
       margin: 0 0 20px 0;
     }
   }
-  #freshteam-widget.sl-jobs .container-fluid {
-    text-align: left;
+  @media screen and (max-width: 479px) {
+    #freshteam-widget.sl-jobs .job-role-list .role-title h5, #freshteam-widget.sl-jobs .job-details-header h1 {
+        font-size: 36px;
+    }
   }
