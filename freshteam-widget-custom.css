@@ -365,6 +365,9 @@
   color: white;
   transform: translateX(5px);
 }
+#freshteam-widget.sl-jobs #apply-job-button-wrapper .btn-primary.apply-job-button {
+  margin-top: 0 !important;
+}
 #freshteam-widget.sl-jobs #apply-job-button-wrapper {
     width: 100%;
     text-align: center;
