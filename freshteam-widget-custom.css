@@ -226,6 +226,8 @@
 #freshteam-widget.sl-jobs .job-details-content > div > div:first-child {
   max-width: 800px;
   margin: 0 auto;
+}
+#freshteam-widget.sl-jobs .job-details-content > div > div.row {
   display: flex;
   flex-direction: row;
 }
