@@ -265,7 +265,10 @@
   line-height: 1.3 !important;
 }
 #freshteam-widget.sl-jobs .job-details-content > div > div:first-child p {
-  
+
+}
+#freshteam-widget.sl-jobs .job-details-content > div > div:first-child a {
+  color: #ff3c78;
 }
 #freshteam-widget.sl-jobs .job-details-content ul {
   list-style: none !important;
