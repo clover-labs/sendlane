@@ -61,7 +61,7 @@
   font-size: 20px;
   margin-top: 0;
 }
-#freshteam-widget.sl-jobs #application-form form * {
+#freshteam-widget.sl-jobs #job-applicant-form form span {
   font-family: 'Gt walsheim',sans-serif !important;
 }
 #freshteam-widget.sl-jobs .form-control:focus {
