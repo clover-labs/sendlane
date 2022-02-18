@@ -31,7 +31,12 @@
   color: #00BE82;
 }
 #freshteam-widget.sl-jobs .form-group p a {
+  color: #325aff;
+  text-decoration: underline;
+}
+#freshteam-widget.sl-jobs .form-group p a:hover {
   color: #ff3c78;
+  text-decoration: underline;
 }
 #freshteam-widget.sl-jobs .required {
   color: #ff3c78;
@@ -268,6 +273,10 @@
 
 }
 #freshteam-widget.sl-jobs .job-details-content > div > div:first-child a {
+  color: #325aff;
+  text-decoration: underline;
+}
+#freshteam-widget.sl-jobs .job-details-content > div > div:first-child a:hover {
   color: #ff3c78;
 }
 #freshteam-widget.sl-jobs .job-details-content ul {
