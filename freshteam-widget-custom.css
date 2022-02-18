@@ -14,6 +14,12 @@
   padding: 0;
   margin: 0 0 5px 0;
 }
+#freshteam-widget.sl-jobs #job_application_status {
+  text-align: center;
+}
+#freshteam-widget.sl-jobs .form-group p a {
+  color: #ff3c78;
+}
 #freshteam-widget.sl-jobs .required {
   color: #ff3c78;
 }
@@ -53,7 +59,7 @@
 #freshteam-widget.sl-jobs .form-control {
   height: 50px;
   margin-bottom: 15px;
-  padding: 15px;
+  padding: 11px 15px;
   border: 1px solid #ddd;
   border-radius: 15px;
   -webkit-transition: border .2s ease-in-out;
@@ -374,8 +380,11 @@
     width: 100%;
     text-align: center;
 }
-#freshteam-widget.sl-jobs .btn-primary:hover, #freshteam-widget.sl-jobs .btn-primary:active {
+#freshteam-widget.sl-jobs .btn-primary:hover, #freshteam-widget.sl-jobs .btn-primary:focus, #freshteam-widget.sl-jobs .btn-primary:active {
   background-color: #db3266;
+}
+#freshteam-widget.sl-jobs .btn-primary.disabled {
+  background-color: #db3266 !important;
 }
 #freshteam-widget.sl-jobs .job-details-header .text-color {
   font-family: 'Gt walsheim', sans-serif;
