@@ -455,6 +455,9 @@
     padding: 0;
     text-align: center;
   }
+  #freshteam-widget .job-details-content {
+    margin-top: 30px;
+  }
 }
 @media screen and (max-width: 767px) {
   #freshteam-widget.sl-jobs .job-role-list .role-title h5, #freshteam-widget.sl-jobs .job-details-header h1 {
