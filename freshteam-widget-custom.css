@@ -419,6 +419,10 @@
 #freshteam-widget.sl-jobs .container-fluid {
   text-align: left;
 }
+#freshteam-widget.sl-jobs #job-desc-tmpl #apply-button-group {
+  display: block !important;
+  float: none;
+}
 @media (max-width: 1199.98px) {
   #job-applicant-form-header {
       left: 0;
