@@ -226,6 +226,16 @@
 #freshteam-widget.sl-jobs .job-details-content > div > div:first-child {
   max-width: 800px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+#freshteam-widget.sl-jobs .job-details-content .public_job_description {
+  flex: 1;
+  padding-left: 0;
+}
+#freshteam-widget.sl-jobs .job-details-content .public_job_info {
+  width: 200px;
+  padding-right: 0;
 }
 #freshteam-widget.sl-jobs .job-details-content > div > div:first-child > * {
   font-family: 'Gt walsheim', sans-serif !important;
@@ -336,7 +346,7 @@
   padding: 15px 20px 25px;
   padding-right: 48.016px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 20px !important;
 }
 #freshteam-widget.sl-jobs .btn-primary.apply-job-button::after {
   position: absolute;
@@ -433,8 +443,18 @@
 }
 @media screen and (max-width: 991px) {
   #freshteam-widget.sl-jobs #applicant-form > h3 {
-      font-size: 30px;
-    }
+    font-size: 30px;
+  }
+  #freshteam-widget.sl-jobs .job-details-content .public_job_description {
+    order: 2;
+  }
+  #freshteam-widget.sl-jobs .job-details-content .public_job_info {
+    order: 1;
+    width: 100%;
+    border: 0;
+    padding: 0;
+    text-align: center;
+  }
 }
 @media screen and (max-width: 767px) {
   #freshteam-widget.sl-jobs .job-role-list .role-title h5, #freshteam-widget.sl-jobs .job-details-header h1 {
