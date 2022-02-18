@@ -90,16 +90,6 @@
   text-align: center;
   cursor: pointer;
 }
-#freshteam-widget.sl-jobs .job-details-header .btn-primary {
-  font-size: 20px;
-  line-height: 1.3;
-  padding: 15px 20px 25px;
-  padding-right: 48.016px;
-  text-align: center;
-  padding-left: 30px !important;
-  padding-right: 30px !important;
-  margin-top: 20px !important;
-}
 #freshteam-widget.sl-jobs .job-list .job-location .location-icon:hover::before, #freshteam-widget.sl-jobs .btn-primary:active:hover, #freshteam-widget.sl-jobs .btn-primary:active:focus, #freshteam-widget.sl-jobs .btn-primary:active.focus, #freshteam-widget.sl-jobs .btn-primary.active:hover, #freshteam-widget.sl-jobs .btn-primary.active:focus, #freshteam-widget.sl-jobs .btn-primary.active.focus {
   background-color: #db3266;
 }
@@ -339,7 +329,12 @@
 }
 #freshteam-widget.sl-jobs .btn-primary.apply-job-button {
   position: relative;
+  font-size: 20px;
+  line-height: 1.3;
+  padding: 15px 20px 25px;
   padding-right: 48.016px;
+  text-align: center;
+  margin-top: 20px;
 }
 #freshteam-widget.sl-jobs .btn-primary.apply-job-button::after {
   position: absolute;
@@ -364,11 +359,6 @@
 }
 #freshteam-widget.sl-jobs .btn-primary:hover, #freshteam-widget.sl-jobs .btn-primary:active {
   background-color: #db3266;
-}
-#freshteam-widget.sl-jobs .job-details-header .btn-primary::after {
-  position: absolute;
-  background-image: url("https://uploads-ssl.webflow.com/5fcfd42a1d06cd880266a30a/5fcfd42a1d06cd6cca66a5f0_arrow-right-white.svg");
-  background-repeat: no-repeat;
 }
 #freshteam-widget.sl-jobs .job-details-header .text-color {
   font-family: 'Gt walsheim', sans-serif;
