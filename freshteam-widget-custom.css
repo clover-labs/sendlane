@@ -17,6 +17,19 @@
 #freshteam-widget.sl-jobs #job_application_status {
   text-align: center;
 }
+#freshteam-widget.sl-jobs .alert {
+  border-radius: 20px;
+}
+#freshteam-widget.sl-jobs .alert-danger {
+  background-color: #FFE2EB;
+  border-color: #FFCEDD;
+  color: #ff3c78;
+}
+#freshteam-widget.sl-jobs .alert-success {
+  background-color: #D9F5ED;
+  border-color: #BFEEE0;
+  color: #00BE82;
+}
 #freshteam-widget.sl-jobs .form-group p a {
   color: #ff3c78;
 }
